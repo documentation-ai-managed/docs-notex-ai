@@ -1,0 +1,110 @@
+---
+title: Introduction to NoteX AI
+description: Discover NoteX AI, the multilingual meeting agent designed for global teams to capture, transcribe, translate, and summarize meetings effortlessly across online, in-person, and hybrid formats.
+---
+
+## Overview
+
+NoteX AI handles your meetings seamlessly, capturing audio from online calls, in-person discussions, or hybrid setups. You get real-time transcription, automatic translation across 50+ languages, and AI-powered summaries that highlight key decisions and action items. Save hours weekly by turning raw conversations into actionable insights without manual effort.
+
+<Callout kind="info">
+NoteX AI integrates with your calendar and meeting platforms, starting automatically when you join a call.
+</Callout>
+
+## Key Features
+
+NoteX AI delivers powerful tools tailored for global teams. Explore the core capabilities below.
+
+<Columns cols={3}>
+  <Card title="Real-Time Transcription" icon="mic" href="#transcription">
+    Capture every word accurately, even in noisy environments or with multiple speakers. Supports 100+ languages for precise records.
+  </Card>
+  <Card title="Instant Translation" icon="globe" href="#translation">
+    Translate live or post-meeting into your team's preferred languages. Perfect for multilingual discussions without barriers.
+  </Card>
+  <Card title="AI Summaries" icon="sparkles" href="#summaries">
+    Generate concise summaries, action items, and highlights. Share instantly via email, Slack, or your dashboard.
+  </Card>
+</Columns>
+
+## Supported Meeting Types
+
+NoteX AI works across all formats. Switch between platforms effortlessly.
+
+<Tabs>
+  <Tab title="Online" icon="video">
+    Zoom, Google Meet, Microsoft Teams, Webex. Joins automatically via browser extension or desktop app.
+  </Tab>
+  <Tab title="In-Person" icon="users">
+    Use your laptop microphone or connect a dedicated device. Ideal for boardrooms or workshops.
+  </Tab>
+  <Tab title="Hybrid" icon="monitor-speaker">
+    Combines online and local audio streams. Ensures everyone is captured, regardless of location.
+  </Tab>
+</Tabs>
+
+## Quick Start
+
+Get up and running in minutes.
+
+<Steps>
+  <Step title="Sign Up" icon="user-plus">
+    Create a free account at https://dashboard.example.com/signup. No credit card required.
+  </Step>
+  <Step title="Install Extension" icon="download">
+    Add the NoteX AI browser extension from the Chrome Web Store or download the desktop app.
+  </Step>
+  <Step title="Join a Meeting" icon="video">
+    Start or join any supported meeting. NoteX AI activates automatically and begins capturing.
+  </Step>
+  <Step title="Review Output" icon="file-text">
+    Access transcripts, translations, and summaries in your dashboard at https://dashboard.example.com.
+  </Step>
+</Steps>
+
+For API integrations, use this example to fetch a meeting summary:
+
+<CodeGroup tabs="JavaScript,Python">
+  ```javascript
+  const response = await fetch('https://api.example.com/v1/meetings/{MEETING_ID}/summary', {
+    headers: {
+      'Authorization': `Bearer ${YOUR_API_KEY}`
+    }
+  });
+  const summary = await response.json();
+  console.log(summary.actions);
+  ```
+  ```python
+  import requests
+
+  response = requests.get(
+    'https://api.example.com/v1/meetings/{MEETING_ID}/summary',
+    headers={'Authorization': f'Bearer {YOUR_API_KEY}'}
+  )
+  summary = response.json()
+  print(summary['actions'])
+  ```
+</CodeGroup>
+
+## Next Steps
+
+Dive deeper into NoteX AI documentation.
+
+<Columns cols={2}>
+  <Card title="Quickstart Guide" icon="book-open" href="/quickstart">
+    Set up your first meeting transcription in under 5 minutes.
+  </Card>
+  <Card title="Authentication" icon="shield" href="/authentication">
+    Secure your API access and manage team permissions.
+  </Card>
+  <Card title="Advanced Features" icon="sparkles" href="/configuration">
+    Customize summaries and integrations for your workflow.
+  </Card>
+  <Card title="Changelog" icon="git-branch" href="/changelog">
+    Stay updated with the latest releases and improvements.
+  </Card>
+</Columns>
+
+<Callout kind="tip">
+Ready to try NoteX AI? Schedule a demo meeting today and experience the difference.
+</Callout>
