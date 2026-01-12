@@ -161,39 +161,6 @@
             "title": "Help Center",
             "path": "help-center",
             "icon": "home"
-          },
-          {
-            "group": "FAQs",
-            "icon": "help-circle",
-            "expandable": false,
-            "pages": [
-              {
-                "title": "How to Add Meeting Bot",
-                "path": "help-center/faq/how-to-add-meeting-bot"
-              }
-            ]
-          },
-          {
-            "group": "Troubleshooting",
-            "icon": "alert-triangle",
-            "expandable": false,
-            "pages": [
-              {
-                "title": "Why No Transcript Generated",
-                "path": "help-center/troubleshooting/why-no-transcript-generated"
-              }
-            ]
-          },
-          {
-            "group": "Guides",
-            "icon": "book-open",
-            "expandable": false,
-            "pages": [
-              {
-                "title": "Setup Multilingual Summaries",
-                "path": "help-center/guides/setup-multilingual-summaries"
-              }
-            ]
           }
         ]
       },
