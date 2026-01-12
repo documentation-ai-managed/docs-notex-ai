@@ -176,5 +176,9 @@
         ]
       }
     ]
-  }
+  },
+  "template": "classic",
+  "logo-dark": "https://blob-cdn.documentation.ai/org-baa369a2-6e04-46a8-b542-1fe4ce88714a/doc-9ea43233-156f-43f1-a7d0-c4a0b1ff5122/1768208191060-solkcbsx1pl-1024x1024.png?q=85&fm=auto&auto=compress%2Cformat",
+  "logo-light": "https://blob-cdn.documentation.ai/org-baa369a2-6e04-46a8-b542-1fe4ce88714a/doc-9ea43233-156f-43f1-a7d0-c4a0b1ff5122/1768208202625-38nvuc50xwp-1024x1024--1-.png?q=85&fm=auto&auto=compress%2Cformat",
+  "favicon": "https://blob-cdn.documentation.ai/org-baa369a2-6e04-46a8-b542-1fe4ce88714a/doc-9ea43233-156f-43f1-a7d0-c4a0b1ff5122/1768208202625-38nvuc50xwp-1024x1024--1-.png?q=85&fm=auto&auto=compress%2Cformat"
 }
