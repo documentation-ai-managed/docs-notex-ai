@@ -10,9 +10,8 @@
     }
   },
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "Hướng dẫn sử dụng",
         "icon": "book",
         "groups": [
           {
@@ -151,10 +150,10 @@
             ],
             "icon": "circle-fading-plus-icon"
           }
-        ]
+        ],
+        "language": "Hướng dẫn sử dụng"
       },
       {
-        "tab": "Trợ giúp",
         "icon": "help-circle",
         "pages": [
           {
@@ -162,10 +161,10 @@
             "path": "help-center",
             "icon": "home"
           }
-        ]
+        ],
+        "language": "Trợ giúp"
       },
       {
-        "tab": "Cập nhật tính năng",
         "icon": "clock",
         "pages": [
           {
@@ -173,7 +172,8 @@
             "path": "changelog",
             "icon": "history"
           }
-        ]
+        ],
+        "language": "Cập nhật tính năng"
       }
     ]
   },
