@@ -59,11 +59,7 @@ Thiết lập và sử dụng chỉ trong vài phút.
 
 <Steps>
   <Step title="Đăng ký tài khoản" icon="user-plus" title-type="p">
-    Tạo tài khoản miễn phí tại <a href="https://notexapp.com/home" target="_blank" rel="noopener noreferrer">https\://notexapp.com/home</a> - Không cần thẻ tín dụng.
-  </Step>
-
-  <Step title="Cài đặt tiện ích" icon="download" title-type="p">
-    Thêm tiện ích trình duyệt NoteX AI từ Chrome Web Store hoặc tải ứng dụng máy tính.
+    Tạo tài khoản miễn phí tại <a href="https://notexapp.com/home" target="_blank" rel="noopener noreferrer">[https://notexapp.com/home](https://notexapp.com/home)</a> - Không cần thẻ tín dụng.
   </Step>
 
   <Step title="Tham gia cuộc họp" icon="video" title-type="p">
@@ -71,58 +67,27 @@ Thiết lập và sử dụng chỉ trong vài phút.
   </Step>
 
   <Step title="Xem kết quả" icon="file-text" title-type="p">
-    Truy cập bản ghi âm, bản dịch và bản tóm tắt trong bảng điều khiển tại [https://dashboard.example.com](https://dashboard.example.com).
+    Truy cập bản ghi âm, bản dịch và bản tóm tắt tại [<a href="https://notexapp.com/app" target="_blank" rel="noopener noreferrer">https://notexapp.com/app</a>](https://notexapp.com/app).
   </Step>
 </Steps>
 
-Để tích hợp API, sử dụng ví dụ này để lấy bản tóm tắt cuộc họp:
-
-<CodeGroup show-lines="true" tabs={[]}>
-  ```javascript
-    const response = await fetch('https://api.example.com/v1/meetings/{MEETING_ID}/summary', {
-      headers: {
-        'Authorization': `Bearer ${YOUR_API_KEY}`
-      }
-    });
-    const summary = await response.json();
-    console.log(summary.actions);
-  ```
-
-  ```python
-    import requests
-
-    response = requests.get(
-      'https://api.example.com/v1/meetings/{MEETING_ID}/summary',
-      headers={'Authorization': f'Bearer {YOUR_API_KEY}'}
-    )
-    summary = response.json()
-    print(summary['actions'])
-  ```
-</CodeGroup>
-
-## Các bước tiếp theo
-
-Tìm hiểu sâu hơn về tài liệu NoteX AI.
+## Tìm hiểu sâu hơn về tài liệu NoteX AI.
 
 <Columns cols="2">
   <Card title="Hướng dẫn bắt đầu" href="/quickstart" icon="book-open" horizontal="false">
-    Thiết lập ghi âm cuộc họp đầu tiên chỉ trong 5 phút.
+    Thiết lập ghi âm cuộc họp đầu tiên chỉ trong 5 phút
   </Card>
 
-  <Card title="Xác thực" href="/authentication" icon="shield" horizontal="false">
-    Bảo mật truy cập API và quản lý quyền hạn nhóm.
+  <Card title="Cộng tác nhóm" href="/authentication" icon="shield" horizontal="false" target="_self">
+    Không bỏ sót thông tin quan trọng nào được thảo luận trong nhóm
   </Card>
 
-  <Card title="Tính năng nâng cao" href="/configuration" icon="sparkles" horizontal="false">
-    Tùy chỉnh bản tóm tắt và tích hợp phù hợp với quy trình làm việc của bạn.
+  <Card title="AI Agent" href="/nova-assistant" icon="sparkles" horizontal="false" target="_self">
+    Không cần hàng giờ đọc tài liệu, trò chuyện với Nova AI để trích xuất thông tin ngay lập tức
   </Card>
 
-  <Card title="Nhật ký cập nhật" href="/changelog" icon="git-branch" horizontal="false">
-    Cập nhật các bản phát hành và cải tiến mới nhất.
+  <Card title="Biểu đồ hoá" href="/mindmap" icon="git-branch" horizontal="false" target="_self">
+    Hệ thống hóa các luồng công việc, cấu trúc dự án hoặc các ý chính từ cuộc họp một cách trực quan.
   </Card>
 </Columns>
-
-<Callout kind="tip" collapsed="false">
-  Sẵn sàng thử NoteX AI? Đặt lịch họp demo ngay hôm nay và trải nghiệm sự khác biệt.
-</Callout>
 
