@@ -10,170 +10,175 @@
     }
   },
   "navigation": {
-    "languages": [
+    "versions": [
       {
-        "icon": "book",
-        "groups": [
+        "version": "English Version",
+        "languages": [
           {
-            "group": "Chào mừng tới NoteX",
-            "icon": "rocket",
+            "icon": "book",
+            "groups": [
+              {
+                "group": "Chào mừng tới NoteX",
+                "icon": "rocket",
+                "pages": [
+                  {
+                    "title": "Giới thiệu về NoteX",
+                    "path": "introduction",
+                    "icon": "home"
+                  },
+                  {
+                    "title": "Đăng ký & Đăng nhập",
+                    "path": "login",
+                    "icon": "zap"
+                  }
+                ]
+              },
+              {
+                "group": "Tạo ghi chú (Note)",
+                "icon": "layers",
+                "pages": [
+                  {
+                    "title": "Meeting Bot",
+                    "path": "meeting",
+                    "icon": "star"
+                  },
+                  {
+                    "title": "Live Transcribe & Translate",
+                    "path": "live-transcribe",
+                    "icon": "a-large-small"
+                  },
+                  {
+                    "title": "Tạo Ghi Chú Đa Định Dạng",
+                    "path": "multi-inputs-types-notes",
+                    "icon": "file-down-icon"
+                  },
+                  {
+                    "title": "Share & Collaboration",
+                    "path": "share-collaboration",
+                    "icon": "heart-handshake"
+                  }
+                ]
+              },
+              {
+                "group": "Cộng tác nhóm",
+                "pages": [
+                  {
+                    "title": "Tổng quan",
+                    "path": "overview",
+                    "icon": "album-icon"
+                  },
+                  {
+                    "title": "Quản lý thư mục",
+                    "path": "folder",
+                    "icon": "folder"
+                  },
+                  {
+                    "title": "Chia sẻ ghi chú",
+                    "path": "share-note",
+                    "icon": "lucide-share2"
+                  },
+                  {
+                    "title": "Quản lý Nhóm",
+                    "path": "team-management",
+                    "icon": "heart-handshake"
+                  }
+                ],
+                "icon": "lucide-heart-handshake"
+              },
+              {
+                "group": "AI Agent",
+                "pages": [
+                  {
+                    "title": "Nova Assistant",
+                    "path": "nova-assistant",
+                    "icon": "brain-icon"
+                  }
+                ],
+                "icon": "brain-circuit"
+              },
+              {
+                "group": "Biểu đồ hóa",
+                "pages": [
+                  {
+                    "title": "Mindmap (Sơ đồ tư duy)",
+                    "path": "mindmap",
+                    "icon": "lucide-pen"
+                  },
+                  {
+                    "title": "Slideshow (Bài thuyết trình)",
+                    "path": "slideshow",
+                    "icon": "lucide-file-sliders"
+                  },
+                  {
+                    "title": "Quizzes (Bộ câu hỏi kiểm tra)",
+                    "path": "quizzes",
+                    "icon": "lucide-puzzle"
+                  },
+                  {
+                    "title": "Podcast / Short",
+                    "path": "podcast-short",
+                    "icon": "lucide-keyboard-music"
+                  },
+                  {
+                    "title": "Flashcards (Thẻ ghi nhớ)",
+                    "path": "flashcards",
+                    "icon": "card-sim-icon"
+                  }
+                ],
+                "icon": "file-bar-chart-icon"
+              },
+              {
+                "group": "Các tính năng khác",
+                "pages": [
+                  {
+                    "title": "Tìm kiếm thông minh",
+                    "path": "search",
+                    "icon": "search"
+                  },
+                  {
+                    "title": "Yêu cầu AI bổ sung",
+                    "path": "additional-instructions",
+                    "icon": "app-window"
+                  },
+                  {
+                    "title": "Tải tệp ghi âm",
+                    "path": "download-audio",
+                    "icon": "file-audio-icon"
+                  },
+                  {
+                    "title": "Lưu ghi chú (Export Note)",
+                    "path": "export-note",
+                    "icon": "arrow-down-circle-icon"
+                  }
+                ],
+                "icon": "circle-fading-plus-icon"
+              }
+            ],
+            "language": "Hướng dẫn sử dụng"
+          },
+          {
+            "icon": "help-circle",
             "pages": [
               {
-                "title": "Giới thiệu về NoteX",
-                "path": "introduction",
+                "title": "Trợ giúp",
+                "path": "help-center",
                 "icon": "home"
-              },
-              {
-                "title": "Đăng ký & Đăng nhập",
-                "path": "login",
-                "icon": "zap"
-              }
-            ]
-          },
-          {
-            "group": "Tạo ghi chú (Note)",
-            "icon": "layers",
-            "pages": [
-              {
-                "title": "Meeting Bot",
-                "path": "meeting",
-                "icon": "star"
-              },
-              {
-                "title": "Live Transcribe & Translate",
-                "path": "live-transcribe",
-                "icon": "a-large-small"
-              },
-              {
-                "title": "Tạo Ghi Chú Đa Định Dạng",
-                "path": "multi-inputs-types-notes",
-                "icon": "file-down-icon"
-              },
-              {
-                "title": "Share & Collaboration",
-                "path": "share-collaboration",
-                "icon": "heart-handshake"
-              }
-            ]
-          },
-          {
-            "group": "Cộng tác nhóm",
-            "pages": [
-              {
-                "title": "Tổng quan",
-                "path": "overview",
-                "icon": "album-icon"
-              },
-              {
-                "title": "Quản lý thư mục",
-                "path": "folder",
-                "icon": "folder"
-              },
-              {
-                "title": "Chia sẻ ghi chú",
-                "path": "share-note",
-                "icon": "lucide-share2"
-              },
-              {
-                "title": "Quản lý Nhóm",
-                "path": "team-management",
-                "icon": "heart-handshake"
               }
             ],
-            "icon": "lucide-heart-handshake"
+            "language": "Trợ giúp"
           },
           {
-            "group": "AI Agent",
+            "icon": "clock",
             "pages": [
               {
-                "title": "Nova Assistant",
-                "path": "nova-assistant",
-                "icon": "brain-icon"
+                "title": "Release History",
+                "path": "changelog",
+                "icon": "history"
               }
             ],
-            "icon": "brain-circuit"
-          },
-          {
-            "group": "Biểu đồ hóa",
-            "pages": [
-              {
-                "title": "Mindmap (Sơ đồ tư duy)",
-                "path": "mindmap",
-                "icon": "lucide-pen"
-              },
-              {
-                "title": "Slideshow (Bài thuyết trình)",
-                "path": "slideshow",
-                "icon": "lucide-file-sliders"
-              },
-              {
-                "title": "Quizzes (Bộ câu hỏi kiểm tra)",
-                "path": "quizzes",
-                "icon": "lucide-puzzle"
-              },
-              {
-                "title": "Podcast / Short",
-                "path": "podcast-short",
-                "icon": "lucide-keyboard-music"
-              },
-              {
-                "title": "Flashcards (Thẻ ghi nhớ)",
-                "path": "flashcards",
-                "icon": "card-sim-icon"
-              }
-            ],
-            "icon": "file-bar-chart-icon"
-          },
-          {
-            "group": "Các tính năng khác",
-            "pages": [
-              {
-                "title": "Tìm kiếm thông minh",
-                "path": "search",
-                "icon": "search"
-              },
-              {
-                "title": "Yêu cầu AI bổ sung",
-                "path": "additional-instructions",
-                "icon": "app-window"
-              },
-              {
-                "title": "Tải tệp ghi âm",
-                "path": "download-audio",
-                "icon": "file-audio-icon"
-              },
-              {
-                "title": "Lưu ghi chú (Export Note)",
-                "path": "export-note",
-                "icon": "arrow-down-circle-icon"
-              }
-            ],
-            "icon": "circle-fading-plus-icon"
+            "language": "Cập nhật tính năng"
           }
-        ],
-        "language": "Hướng dẫn sử dụng"
-      },
-      {
-        "icon": "help-circle",
-        "pages": [
-          {
-            "title": "Trợ giúp",
-            "path": "help-center",
-            "icon": "home"
-          }
-        ],
-        "language": "Trợ giúp"
-      },
-      {
-        "icon": "clock",
-        "pages": [
-          {
-            "title": "Release History",
-            "path": "changelog",
-            "icon": "history"
-          }
-        ],
-        "language": "Cập nhật tính năng"
+        ]
       }
     ]
   },
