@@ -319,6 +319,21 @@
                 ]
               }
             ]
+          },
+          {
+            "version": "Mobile App",
+            "groups": [
+              {
+                "group": "NoteX AI Overview",
+                "pages": [
+                  {
+                    "title": "NoteX AI Overview",
+                    "path": "notex-ai-overview",
+                    "icon": "stars"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
