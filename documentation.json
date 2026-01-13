@@ -205,27 +205,108 @@
           {
             "version": "Web Browser",
             "icon": "lucide-mouse-pointer-click",
-            "groups": [
+            "tabs": [
               {
-                "group": "Welcome to NoteX",
-                "icon": "lucide-home",
-                "pages": [
+                "tab": "User Guide",
+                "icon": "file",
+                "groups": [
                   {
-                    "title": "Get started",
-                    "path": "get-started",
-                    "icon": "star"
+                    "group": "Welcome to NoteX",
+                    "icon": "lucide-home",
+                    "pages": [
+                      {
+                        "title": "Get started",
+                        "path": "get-started",
+                        "icon": "star"
+                      },
+                      {
+                        "title": "Login-en",
+                        "path": "login-en",
+                        "icon": "log-in"
+                      }
+                    ]
                   },
                   {
-                    "title": "Login-en",
-                    "path": "login-en",
-                    "icon": "log-in"
+                    "group": "Create Note",
+                    "pages": [
+                      {
+                        "title": "Meeting Bot",
+                        "path": "meeting-bot",
+                        "icon": "bot"
+                      },
+                      {
+                        "title": "Live Transcribe & Translate",
+                        "path": "live-transcribe-translate",
+                        "icon": "lucide-letter-text"
+                      },
+                      {
+                        "title": "Create Note with multi-inputs",
+                        "path": "create-note-with-multi-inputs",
+                        "icon": "file-input"
+                      }
+                    ],
+                    "icon": "lucide-sticky-note"
+                  },
+                  {
+                    "group": "Share & Collaboration",
+                    "pages": [
+                      {
+                        "title": "Share & Collaboration:",
+                        "path": "share-collaboration-en",
+                        "icon": "handshake-icon"
+                      }
+                    ],
+                    "icon": "lucide-heart-handshake"
+                  },
+                  {
+                    "group": "AI Agent",
+                    "pages": [
+                      {
+                        "title": "Nova Assistant",
+                        "path": "nova-assistant-en",
+                        "icon": "stars"
+                      }
+                    ],
+                    "icon": "stars-icon"
+                  },
+                  {
+                    "group": "Data Visualization",
+                    "pages": [
+                      {
+                        "title": "Data Visualization",
+                        "path": "data-visualization",
+                        "icon": "database-icon"
+                      }
+                    ],
+                    "icon": "database"
+                  },
+                  {
+                    "group": "Other features",
+                    "pages": [
+                      {
+                        "title": "Additional Instructions",
+                        "path": "additional-instructions-en",
+                        "icon": "a-large-small"
+                      },
+                      {
+                        "title": "Exporting Notes",
+                        "path": "exporting-notes",
+                        "icon": "file-down"
+                      },
+                      {
+                        "title": "Downloading Audio",
+                        "path": "downloading-audio",
+                        "icon": "arrow-big-down-dash"
+                      },
+                      {
+                        "title": "Smart search",
+                        "path": "smart-search",
+                        "icon": "search-icon"
+                      }
+                    ],
+                    "icon": "book-template"
                   }
                 ]
-              },
-              {
-                "group": "Create Note",
-                "pages": [],
-                "icon": "lucide-sticky-note"
               }
             ]
           }
